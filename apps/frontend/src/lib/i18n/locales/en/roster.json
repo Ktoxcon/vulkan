@@ -1,0 +1,77 @@
+{
+  "tab": {
+    "loading": "Loading",
+    "error": "Failed to load the roster. Please try again.",
+    "reimport": "Re-import roster",
+    "locked": "The roster is locked once the event leaves Draft.",
+    "emptyLocked": "No roster uploaded. Roster import is only available while the event is in Draft.",
+    "cancelReimport": "Cancel re-import",
+    "addOneAtATime": "Or add clients one at a time."
+  },
+  "upload": {
+    "title": "Upload roster",
+    "description": "Choose a CSV file with the columns name, email, company.",
+    "selected": "Selected: {{name}}",
+    "submit": "Upload and preview",
+    "invalidType": "Please choose a CSV file.",
+    "tooLarge": "File is larger than 5 MB."
+  },
+  "preview": {
+    "title": "Import preview",
+    "counter": {
+      "imported": "Imported",
+      "accepted": "Accepted",
+      "invalid": "Invalid",
+      "duplicate": "Duplicate"
+    },
+    "invalidRows": {
+      "title": "Invalid rows",
+      "row": "Row",
+      "raw": "Raw",
+      "errors": "Errors"
+    },
+    "duplicateRows": {
+      "title": "Duplicate rows",
+      "row": "Row",
+      "email": "Email"
+    },
+    "cancel": "Cancel",
+    "confirm": "Confirm import",
+    "toast": {
+      "confirmed": "Roster confirmed with {{count}} clients"
+    }
+  },
+  "view": {
+    "title": "Roster",
+    "count_one": "{{count}} client on this roster.",
+    "count_other": "{{count}} clients on this roster.",
+    "empty": "This roster has no clients.",
+    "table": {
+      "name": "Name",
+      "email": "Email",
+      "company": "Company"
+    },
+    "noCompany": "—"
+  },
+  "addClient": {
+    "trigger": "Add client",
+    "title": "Add a client",
+    "description": "Manually add a single client to this event's roster.",
+    "name": {
+      "label": "Name"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "company": {
+      "label": "Company"
+    },
+    "submit": "Add to roster",
+    "toast": {
+      "added": "Client added to the roster."
+    }
+  },
+  "validation": {
+    "nameRequired": "Name is required"
+  }
+}

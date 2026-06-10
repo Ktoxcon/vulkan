@@ -1,0 +1,176 @@
+{
+  "list": {
+    "title": "Eventos",
+    "subtitle": "Crea y gestiona tus eventos promocionales.",
+    "new": "Nuevo evento",
+    "loadError": "No se pudieron cargar los eventos. Inténtalo de nuevo.",
+    "count_one": "{{count}} evento",
+    "count_other": "{{count}} eventos",
+    "pageInfo": "Página {{page}} de {{pageCount}}",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "table": {
+    "name": "Nombre",
+    "status": "Estado",
+    "capacity": "Capacidad",
+    "eventDate": "Fecha del evento",
+    "created": "Creado",
+    "empty": "No se encontraron eventos."
+  },
+  "status": {
+    "draft": "Borrador",
+    "active": "Activo",
+    "paused": "Pausado",
+    "closed": "Cerrado"
+  },
+  "detail": {
+    "back": "Volver a eventos",
+    "notFound": "Evento no encontrado.",
+    "tabs": {
+      "overview": "Resumen",
+      "offerings": "Ofertas",
+      "roster": "Lista de clientes",
+      "emailTemplate": "Plantilla de correo",
+      "invitations": "Invitaciones",
+      "portfolios": "Portafolios"
+    },
+    "details": {
+      "title": "Detalles",
+      "capacity": "Capacidad",
+      "reservationTimeout": "Tiempo de reserva",
+      "reservationTimeoutValue": "{{count}} min",
+      "registration": "Registro",
+      "event": "Evento",
+      "requireConfirmation": "Requerir confirmación",
+      "yes": "Sí",
+      "no": "No",
+      "description": "Descripción"
+    },
+    "readiness": {
+      "title": "Preparación"
+    }
+  },
+  "create": {
+    "back": "Volver a eventos",
+    "title": "Nuevo evento"
+  },
+  "edit": {
+    "back": "Volver al evento",
+    "notFound": "Evento no encontrado.",
+    "title": "Editar {{name}}"
+  },
+  "form": {
+    "name": {
+      "label": "Nombre"
+    },
+    "description": {
+      "label": "Descripción"
+    },
+    "capacity": {
+      "label": "Capacidad"
+    },
+    "reservationTimeoutMinutes": {
+      "label": "Tiempo de reserva (minutos)"
+    },
+    "registrationStartDate": {
+      "label": "Inicio del registro"
+    },
+    "registrationEndDate": {
+      "label": "Fin del registro"
+    },
+    "eventStartDate": {
+      "label": "Inicio del evento"
+    },
+    "eventEndDate": {
+      "label": "Fin del evento (opcional)"
+    },
+    "requireConfirmation": {
+      "label": "Requerir confirmación de asistencia"
+    },
+    "structuralLocked": "La programación y la configuración de reservas se bloquean una vez que el evento deja el estado Borrador. Solo se pueden cambiar el nombre, la descripción y la capacidad.",
+    "lockedAfterDraft": "Bloqueado después de Borrador.",
+    "create": "Crear evento",
+    "save": "Guardar cambios"
+  },
+  "actions": {
+    "edit": "Editar evento",
+    "launch": "Lanzar",
+    "resume": "Reanudar",
+    "pause": "Pausar",
+    "close": "Cerrar",
+    "confirmClose": {
+      "title": "¿Cerrar este evento?",
+      "description": "Cerrar {{name}} es permanente. Un evento cerrado no se puede reabrir ni volver a cambiar de estado.",
+      "cancel": "Cancelar",
+      "confirm": "Cerrar evento"
+    }
+  },
+  "readiness": {
+    "loadError": "No se pudieron cargar las comprobaciones de preparación. Inténtalo de nuevo.",
+    "ready": "Listo para lanzar",
+    "notReady": "No está listo para lanzar",
+    "passed": "Superado",
+    "failed": "No superado",
+    "checks": {
+      "detailsConfigured": "Detalles del evento configurados",
+      "capacityConfigured": "Capacidad configurada",
+      "offeringsAssigned": "Ofertas asignadas",
+      "registrationDatesValid": "Fechas de registro válidas",
+      "rosterUploaded": "Lista de clientes cargada",
+      "rosterHasValidClient": "La lista tiene un cliente válido",
+      "inviteTokensReady": "Invitaciones listas",
+      "emailTemplateConfigured": "Plantilla de correo configurada"
+    }
+  },
+  "offerings": {
+    "title": "Ofertas",
+    "subtitle": "Productos y servicios disponibles para este evento.",
+    "add": "Agregar ofertas",
+    "loadError": "No se pudieron cargar las ofertas asignadas. Inténtalo de nuevo.",
+    "empty": "Aún no hay ofertas asignadas. Agrega ofertas para que este evento esté listo.",
+    "remove": "Eliminar",
+    "meta": "{{type}} · {{price}}"
+  },
+  "offeringPicker": {
+    "title": "Agregar ofertas",
+    "description": "Asigna ofertas activas del catálogo a este evento.",
+    "loadError": "No se pudo cargar el catálogo de ofertas. Inténtalo de nuevo.",
+    "emptyCatalog": "Aún no existen ofertas activas en el catálogo.",
+    "allAssigned": "Todas las ofertas activas de esta página ya están asignadas.",
+    "assign": "Asignar",
+    "meta": "{{type}} · {{price}}",
+    "pageInfo": "Página {{page}} de {{pageCount}}",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "portfolios": {
+    "loadError": "No se pudieron cargar los portafolios. Inténtalo de nuevo."
+  },
+  "toast": {
+    "created": "{{name}} creado",
+    "updated": "{{name}} actualizado",
+    "launched": "Evento lanzado",
+    "resumed": "Evento reanudado",
+    "paused": "Evento pausado",
+    "closed": "Evento cerrado",
+    "notReadyWithChecks": "No se puede lanzar — pendiente: {{checks}}",
+    "notReady": "El evento no está listo para lanzar.",
+    "offeringAssigned": "{{name}} asignada",
+    "offeringRemoved": "{{name}} eliminada"
+  },
+  "validation": {
+    "nameRequired": "El nombre es obligatorio",
+    "capacityInteger": "La capacidad debe ser un número entero",
+    "capacityPositive": "La capacidad debe ser mayor que cero",
+    "reservationTimeoutInteger": "El tiempo de reserva debe ser un número entero",
+    "reservationTimeoutNonnegative": "El tiempo de reserva no puede ser negativo",
+    "eventStartRequired": "La fecha de inicio del evento es obligatoria",
+    "registrationStartRequired": "La fecha de inicio del registro es obligatoria",
+    "registrationEndRequired": "La fecha de fin del registro es obligatoria",
+    "registrationEndAfterStart": "El fin del registro debe ser posterior al inicio del registro",
+    "registrationEndsBeforeEvent": "El registro debe finalizar antes o cuando comience el evento",
+    "eventEndAfterStart": "El fin del evento debe ser igual o posterior al inicio del evento"
+  },
+  "loading": "Cargando"
+}

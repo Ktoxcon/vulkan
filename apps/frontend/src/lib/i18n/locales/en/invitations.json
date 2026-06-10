@@ -1,0 +1,60 @@
+{
+  "table": {
+    "title": "Invitations",
+    "filter.placeholder": "Filter by status",
+    "filter.all": "All statuses",
+    "empty": "No invitations to show.",
+    "header.email": "Email",
+    "header.status": "Status",
+    "header.sent": "Sent",
+    "header.opened": "Opened",
+    "header.confirmed": "Confirmed"
+  },
+  "status": {
+    "pending": "Pending",
+    "queued": "Queued",
+    "processing": "Processing",
+    "sent": "Sent",
+    "opened": "Opened",
+    "failed": "Failed",
+    "started": "Started",
+    "confirmed": "Confirmed",
+    "expired": "Expired"
+  },
+  "monitoring": {
+    "total": "Total",
+    "pending": "Pending",
+    "queued": "Queued",
+    "processing": "Processing",
+    "sent": "Sent",
+    "opened": "Opened",
+    "failed": "Failed",
+    "confirmed": "Confirmed"
+  },
+  "generate": {
+    "action": "Generate invitations",
+    "toast.success": "Generated {{createdCount}}/{{totalRosterClients}} invitations",
+    "toast.rosterMissing": "Upload a roster before generating invitations."
+  },
+  "send": {
+    "action": "Send invitations",
+    "title": "Send invitations",
+    "description.running": "Sending is running in the background. You can close this dialog.",
+    "description.queue": "This will queue {{count}} pending invitations for delivery.",
+    "progress.sent": "Sent",
+    "progress.inProgress": "In progress",
+    "progress.failed": "Failed",
+    "done": "Done",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm and send",
+    "toast.queued": "Queued {{count}} invitations",
+    "toast.templateMissing": "Configure the email template before sending.",
+    "toast.noPending": "There are no pending invitations to send."
+  },
+  "tab": {
+    "export": "Export report",
+    "loading": "Loading",
+    "error": "Failed to load invitations. Please try again."
+  }
+}

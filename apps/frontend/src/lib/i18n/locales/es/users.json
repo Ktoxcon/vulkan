@@ -1,0 +1,96 @@
+{
+  "list": {
+    "title": "Usuarios",
+    "subtitle": "Gestiona representantes de ventas y administradores.",
+    "loading": "Cargando",
+    "error": "No se pudieron cargar los usuarios. Inténtalo de nuevo.",
+    "summary_one": "{{count}} usuario · Página {{page}} de {{pageCount}}",
+    "summary_other": "{{count}} usuarios · Página {{page}} de {{pageCount}}",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "table": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "role": "Rol",
+    "status": "Estado",
+    "created": "Creado",
+    "actions": "Acciones",
+    "empty": "No se encontraron usuarios."
+  },
+  "roles": {
+    "admin": "Administrador",
+    "sales": "Ventas"
+  },
+  "statuses": {
+    "ACTIVE": "Activo",
+    "PENDING": "Pendiente",
+    "INACTIVE": "Inactivo"
+  },
+  "actions": {
+    "create": "Nuevo usuario",
+    "edit": "Editar",
+    "reactivate": "Reactivar",
+    "deactivate": "Desactivar",
+    "backToUsers": "Volver a usuarios",
+    "deactivateSelfTitle": "No puedes desactivar tu propia cuenta"
+  },
+  "deactivateDialog": {
+    "title": "¿Desactivar usuario?",
+    "description": "{{name}} {{lastName}} ya no podrá iniciar sesión. Podrás reactivarlo más adelante.",
+    "cancel": "Cancelar",
+    "confirm": "Desactivar"
+  },
+  "create": {
+    "title": "Nuevo usuario"
+  },
+  "edit": {
+    "title": "Editar usuario",
+    "loading": "Cargando",
+    "notFound": "Usuario no encontrado."
+  },
+  "form": {
+    "name": {
+      "label": "Nombre"
+    },
+    "lastName": {
+      "label": "Apellido"
+    },
+    "email": {
+      "label": "Correo electrónico",
+      "placeholder": "tu@vulkan.com"
+    },
+    "password": {
+      "label": "Contraseña"
+    },
+    "resetPassword": {
+      "label": "Restablecer contraseña",
+      "placeholder": "Déjalo en blanco para mantener la contraseña actual"
+    },
+    "role": {
+      "label": "Rol",
+      "placeholder": "Selecciona un rol",
+      "lockedHint": "No puedes cambiar tu propio rol."
+    },
+    "status": {
+      "label": "Estado",
+      "placeholder": "Selecciona un estado",
+      "lockedHint": "No puedes desactivar tu propia cuenta."
+    },
+    "submit": {
+      "create": "Crear usuario",
+      "edit": "Guardar cambios"
+    }
+  },
+  "validation": {
+    "firstNameRequired": "El nombre es obligatorio",
+    "lastNameRequired": "El apellido es obligatorio",
+    "passwordMin": "La contraseña debe tener al menos 8 caracteres"
+  },
+  "toast": {
+    "created": "{{name}} {{lastName}} creado",
+    "updated": "{{name}} {{lastName}} actualizado",
+    "reactivated": "{{name}} reactivado",
+    "deactivated": "{{name}} desactivado"
+  }
+}

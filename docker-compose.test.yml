@@ -1,0 +1,99 @@
+x-app-env: &app-env
+  NODE_ENV: production
+  SERVER_PORT: "3300"
+  SERVE_CLIENT: "true"
+  APP_URL: ${SERVICE_URL_BACKEND}
+  DB_HOST: postgres
+  DB_PORT: "5432"
+  DB_NAME: ${POSTGRES_DB:-vulkan}
+  DB_USER: ${SERVICE_USER_POSTGRES}
+  DB_PASSWORD: ${SERVICE_PASSWORD_POSTGRES}
+  REDIS_HOST: redis
+  REDIS_PORT: "6379"
+  SESSION_SECRET: ${SERVICE_BASE64_SESSION}
+  COOKIES_SECRET: ${SERVICE_BASE64_COOKIES}
+  ROOT_EMAIL: ${ROOT_EMAIL:-root@vulkan.com}
+  ROOT_PASSWORD: ${SERVICE_PASSWORD_ROOT}
+  EMAIL_APP_ADDRESS: ${EMAIL_APP_ADDRESS}
+  EMAIL_APP_TOKEN: ${EMAIL_APP_TOKEN}
+  SMTP_HOST: ${SMTP_HOST:-smtp.gmail.com}
+  SMTP_PORT: ${SMTP_PORT:-465}
+  SMTP_SECURE: ${SMTP_SECURE:-true}
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-vulkan}
+      POSTGRES_USER: ${SERVICE_USER_POSTGRES}
+      POSTGRES_PASSWORD: ${SERVICE_PASSWORD_POSTGRES}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  backend:
+    build:
+      context: .
+      dockerfile: apps/backend/Dockerfile
+    restart: unless-stopped
+    # Apply migrations + ensure the root admin (idempotent), then start the server.
+    command:
+      [
+        "sh",
+        "-c",
+        "node dist/lib/db/migrate.js && node dist/lib/db/seed.js && node dist/index.js",
+      ]
+    environment:
+      <<: *app-env
+      SERVICE_FQDN_BACKEND_3300: "/"
+    expose:
+      - "3300"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "wget -qO- http://127.0.0.1:3300/ >/dev/null 2>&1 || exit 1",
+        ]
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  worker:
+    build:
+      context: .
+      dockerfile: apps/backend/Dockerfile
+    restart: unless-stopped
+    command: ["node", "dist/worker.js"]
+    environment:
+      <<: *app-env
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+
+volumes:
+  postgres_data:
+  redis_data:

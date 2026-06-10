@@ -1,0 +1,6 @@
+{
+  "generic": "Algo salió mal. Por favor, inténtalo de nuevo.",
+  "FORBIDDEN": "No tienes permiso para realizar esta acción.",
+  "UNAUTHORIZED": "No has iniciado sesión.",
+  "INTERNAL_SERVER_ERROR": "Algo salió mal de nuestro lado. Por favor, inténtalo de nuevo."
+}

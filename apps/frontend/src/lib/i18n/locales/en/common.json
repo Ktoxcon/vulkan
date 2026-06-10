@@ -1,0 +1,36 @@
+{
+  "brand": "Vulkan",
+  "tagline": "© Vulkan {{year}}",
+  "nav": {
+    "events": "Events",
+    "catalog": "Catalog",
+    "users": "Users",
+    "openNavigation": "Open navigation"
+  },
+  "account": {
+    "menu": "Account menu",
+    "signOut": "Sign out",
+    "greeting": "Welcome Back, {{name}}!"
+  },
+  "routeFallback": {
+    "loading": "Loading"
+  },
+  "languageSelector": {
+    "label": "Language",
+    "es": "Español",
+    "en": "English"
+  },
+  "settings": {
+    "label": "Settings"
+  },
+  "invitation": {
+    "eyebrow": "Vulkan",
+    "subtitle": "Event Invitation"
+  },
+  "forbidden": {
+    "code": "403",
+    "title": "Access denied",
+    "description": "You do not have permission to view this page.",
+    "back": "Back to safety"
+  }
+}

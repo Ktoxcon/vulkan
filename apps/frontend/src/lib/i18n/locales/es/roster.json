@@ -1,0 +1,77 @@
+{
+  "tab": {
+    "loading": "Cargando",
+    "error": "No se pudo cargar la lista. Inténtalo de nuevo.",
+    "reimport": "Reimportar lista",
+    "locked": "La lista queda bloqueada una vez que el evento sale de Borrador.",
+    "emptyLocked": "No se ha subido ninguna lista. La importación de la lista solo está disponible mientras el evento está en Borrador.",
+    "cancelReimport": "Cancelar reimportación",
+    "addOneAtATime": "O agrega clientes uno por uno."
+  },
+  "upload": {
+    "title": "Subir lista",
+    "description": "Elige un archivo CSV con las columnas nombre, correo, empresa.",
+    "selected": "Seleccionado: {{name}}",
+    "submit": "Subir y previsualizar",
+    "invalidType": "Elige un archivo CSV.",
+    "tooLarge": "El archivo supera los 5 MB."
+  },
+  "preview": {
+    "title": "Vista previa de la importación",
+    "counter": {
+      "imported": "Importados",
+      "accepted": "Aceptados",
+      "invalid": "Inválidos",
+      "duplicate": "Duplicados"
+    },
+    "invalidRows": {
+      "title": "Filas inválidas",
+      "row": "Fila",
+      "raw": "Datos",
+      "errors": "Errores"
+    },
+    "duplicateRows": {
+      "title": "Filas duplicadas",
+      "row": "Fila",
+      "email": "Correo"
+    },
+    "cancel": "Cancelar",
+    "confirm": "Confirmar importación",
+    "toast": {
+      "confirmed": "Lista confirmada con {{count}} clientes"
+    }
+  },
+  "view": {
+    "title": "Lista",
+    "count_one": "{{count}} cliente en esta lista.",
+    "count_other": "{{count}} clientes en esta lista.",
+    "empty": "Esta lista no tiene clientes.",
+    "table": {
+      "name": "Nombre",
+      "email": "Correo",
+      "company": "Empresa"
+    },
+    "noCompany": "—"
+  },
+  "addClient": {
+    "trigger": "Agregar cliente",
+    "title": "Agregar un cliente",
+    "description": "Agrega manualmente un solo cliente a la lista de este evento.",
+    "name": {
+      "label": "Nombre"
+    },
+    "email": {
+      "label": "Correo"
+    },
+    "company": {
+      "label": "Empresa"
+    },
+    "submit": "Agregar a la lista",
+    "toast": {
+      "added": "Cliente agregado a la lista."
+    }
+  },
+  "validation": {
+    "nameRequired": "El nombre es obligatorio"
+  }
+}

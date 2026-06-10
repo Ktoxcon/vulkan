@@ -1,0 +1,176 @@
+{
+  "list": {
+    "title": "Events",
+    "subtitle": "Create and manage your promotional events.",
+    "new": "New event",
+    "loadError": "Failed to load events. Please try again.",
+    "count_one": "{{count}} event",
+    "count_other": "{{count}} events",
+    "pageInfo": "Page {{page}} of {{pageCount}}",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "table": {
+    "name": "Name",
+    "status": "Status",
+    "capacity": "Capacity",
+    "eventDate": "Event date",
+    "created": "Created",
+    "empty": "No events found."
+  },
+  "status": {
+    "draft": "Draft",
+    "active": "Active",
+    "paused": "Paused",
+    "closed": "Closed"
+  },
+  "detail": {
+    "back": "Back to events",
+    "notFound": "Event not found.",
+    "tabs": {
+      "overview": "Overview",
+      "offerings": "Offerings",
+      "roster": "Roster",
+      "emailTemplate": "Email Template",
+      "invitations": "Invitations",
+      "portfolios": "Portfolios"
+    },
+    "details": {
+      "title": "Details",
+      "capacity": "Capacity",
+      "reservationTimeout": "Reservation timeout",
+      "reservationTimeoutValue": "{{count}} min",
+      "registration": "Registration",
+      "event": "Event",
+      "requireConfirmation": "Require confirmation",
+      "yes": "Yes",
+      "no": "No",
+      "description": "Description"
+    },
+    "readiness": {
+      "title": "Readiness"
+    }
+  },
+  "create": {
+    "back": "Back to events",
+    "title": "New event"
+  },
+  "edit": {
+    "back": "Back to event",
+    "notFound": "Event not found.",
+    "title": "Edit {{name}}"
+  },
+  "form": {
+    "name": {
+      "label": "Name"
+    },
+    "description": {
+      "label": "Description"
+    },
+    "capacity": {
+      "label": "Capacity"
+    },
+    "reservationTimeoutMinutes": {
+      "label": "Reservation timeout (minutes)"
+    },
+    "registrationStartDate": {
+      "label": "Registration start"
+    },
+    "registrationEndDate": {
+      "label": "Registration end"
+    },
+    "eventStartDate": {
+      "label": "Event start"
+    },
+    "eventEndDate": {
+      "label": "Event end (optional)"
+    },
+    "requireConfirmation": {
+      "label": "Require attendance confirmation"
+    },
+    "structuralLocked": "Schedule and reservation settings are locked once the event leaves Draft. Only name, description, and capacity can be changed.",
+    "lockedAfterDraft": "Locked after Draft.",
+    "create": "Create event",
+    "save": "Save changes"
+  },
+  "actions": {
+    "edit": "Edit Event",
+    "launch": "Launch",
+    "resume": "Resume",
+    "pause": "Pause",
+    "close": "Close",
+    "confirmClose": {
+      "title": "Close this event?",
+      "description": "Closing {{name}} is permanent. A closed event cannot be reopened or transitioned again.",
+      "cancel": "Cancel",
+      "confirm": "Close event"
+    }
+  },
+  "readiness": {
+    "loadError": "Failed to load readiness checks. Please try again.",
+    "ready": "Ready to launch",
+    "notReady": "Not ready to launch",
+    "passed": "Passed",
+    "failed": "Failed",
+    "checks": {
+      "detailsConfigured": "Event details configured",
+      "capacityConfigured": "Capacity configured",
+      "offeringsAssigned": "Offerings assigned",
+      "registrationDatesValid": "Registration dates valid",
+      "rosterUploaded": "Client roster uploaded",
+      "rosterHasValidClient": "Roster has a valid client",
+      "inviteTokensReady": "Invitations ready",
+      "emailTemplateConfigured": "Email template configured"
+    }
+  },
+  "offerings": {
+    "title": "Offerings",
+    "subtitle": "Products and services available for this event.",
+    "add": "Add offerings",
+    "loadError": "Failed to load assigned offerings. Please try again.",
+    "empty": "No offerings assigned yet. Add offerings to make this event ready.",
+    "remove": "Remove",
+    "meta": "{{type}} · {{price}}"
+  },
+  "offeringPicker": {
+    "title": "Add offerings",
+    "description": "Assign active catalog offerings to this event.",
+    "loadError": "Failed to load the offerings catalog. Please try again.",
+    "emptyCatalog": "No active offerings exist in the catalog yet.",
+    "allAssigned": "All active offerings on this page are already assigned.",
+    "assign": "Assign",
+    "meta": "{{type}} · {{price}}",
+    "pageInfo": "Page {{page}} of {{pageCount}}",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "portfolios": {
+    "loadError": "Failed to load portfolios. Please try again."
+  },
+  "toast": {
+    "created": "{{name}} created",
+    "updated": "{{name}} updated",
+    "launched": "Event launched",
+    "resumed": "Event resumed",
+    "paused": "Event paused",
+    "closed": "Event closed",
+    "notReadyWithChecks": "Cannot launch — pending: {{checks}}",
+    "notReady": "Event is not ready to launch.",
+    "offeringAssigned": "{{name}} assigned",
+    "offeringRemoved": "{{name}} removed"
+  },
+  "validation": {
+    "nameRequired": "Name is required",
+    "capacityInteger": "Capacity must be a whole number",
+    "capacityPositive": "Capacity must be greater than zero",
+    "reservationTimeoutInteger": "Reservation timeout must be a whole number",
+    "reservationTimeoutNonnegative": "Reservation timeout cannot be negative",
+    "eventStartRequired": "Event start date is required",
+    "registrationStartRequired": "Registration start date is required",
+    "registrationEndRequired": "Registration end date is required",
+    "registrationEndAfterStart": "Registration end must be after registration start",
+    "registrationEndsBeforeEvent": "Registration must end on or before the event starts",
+    "eventEndAfterStart": "Event end must be on or after the event start"
+  },
+  "loading": "Loading"
+}

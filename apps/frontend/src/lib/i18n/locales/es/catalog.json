@@ -1,0 +1,150 @@
+{
+  "list": {
+    "title": "Catálogo",
+    "subtitle": "Gestiona los productos y servicios ofrecidos en los eventos.",
+    "loading": "Cargando",
+    "error": "No se pudieron cargar las ofertas. Inténtalo de nuevo.",
+    "count_one": "{{count}} oferta · Página {{page}} de {{pageCount}}",
+    "count_other": "{{count}} ofertas · Página {{page}} de {{pageCount}}",
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "actions": {
+    "import": "Importar CSV",
+    "new": "Nueva oferta",
+    "edit": "Editar",
+    "deactivate": "Desactivar",
+    "reactivate": "Reactivar",
+    "backToCatalog": "Volver al catálogo"
+  },
+  "table": {
+    "name": "Nombre",
+    "type": "Tipo",
+    "basePrice": "Precio base",
+    "status": "Estado",
+    "created": "Creado",
+    "actions": "Acciones",
+    "empty": "No se encontraron ofertas."
+  },
+  "status": {
+    "active": "Activo",
+    "inactive": "Inactivo"
+  },
+  "filters": {
+    "type": {
+      "label": "Tipo",
+      "placeholder": "Todos los tipos",
+      "all": "Todos los tipos"
+    },
+    "status": {
+      "label": "Estado",
+      "placeholder": "Estado"
+    },
+    "search": {
+      "label": "Buscar",
+      "placeholder": "Buscar por nombre o descripción"
+    }
+  },
+  "typeOptions": {
+    "product": "Producto",
+    "service": "Servicio"
+  },
+  "statusOptions": {
+    "active": "Activo",
+    "inactive": "Inactivo",
+    "all": "Todos"
+  },
+  "rowActions": {
+    "deactivateTitle": "¿Desactivar oferta?",
+    "deactivateDescription": "{{name}} ya no estará disponible para asignar a eventos. Puedes reactivarla más tarde.",
+    "cancel": "Cancelar"
+  },
+  "create": {
+    "title": "Nueva oferta"
+  },
+  "edit": {
+    "title": "Editar oferta",
+    "notFound": "Oferta no encontrada."
+  },
+  "form": {
+    "type": {
+      "label": "Tipo",
+      "placeholder": "Selecciona un tipo",
+      "readOnlyDescription": "El tipo no se puede cambiar."
+    },
+    "name": {
+      "label": "Nombre"
+    },
+    "description": {
+      "label": "Descripción"
+    },
+    "basePrice": {
+      "label": "Precio base"
+    },
+    "isActive": {
+      "label": "Activo",
+      "description": "Las ofertas activas se pueden asignar a eventos."
+    },
+    "submit": {
+      "create": "Crear oferta",
+      "save": "Guardar cambios"
+    }
+  },
+  "validation": {
+    "typeRequired": "El tipo es obligatorio",
+    "nameRequired": "El nombre es obligatorio",
+    "basePriceNumber": "El precio base debe ser un número",
+    "basePricePositive": "El precio base debe ser mayor que 0"
+  },
+  "import": {
+    "title": "Importar ofertas",
+    "subtitle": "Sube un CSV con las columnas: name, type, description, basePrice.",
+    "upload": {
+      "title": "Subir CSV del catálogo",
+      "subtitle": "Elige un archivo CSV con las columnas name, type, description, basePrice.",
+      "selected": "Seleccionado: {{name}}",
+      "submit": "Subir y previsualizar",
+      "invalidFile": "Por favor elige un archivo CSV."
+    },
+    "preview": {
+      "title": "Vista previa de importación",
+      "cancel": "Cancelar",
+      "confirm": "Confirmar importación",
+      "counters": {
+        "processed": "Procesadas",
+        "imported": "Importadas",
+        "duplicate": "Duplicadas",
+        "invalid": "Inválidas"
+      },
+      "invalidRows": {
+        "title": "Filas inválidas",
+        "row": "Fila",
+        "raw": "Datos",
+        "errors": "Errores"
+      },
+      "duplicateRows": {
+        "title": "Filas duplicadas",
+        "row": "Fila",
+        "name": "Nombre",
+        "type": "Tipo"
+      }
+    },
+    "summary": {
+      "title": "Importación completada",
+      "imported": "Importadas",
+      "duplicatesSkipped": "Duplicadas omitidas",
+      "invalidRows": "Filas inválidas",
+      "processed": "Procesadas",
+      "backToCatalog": "Volver al catálogo",
+      "importAnother": "Importar otro archivo"
+    }
+  },
+  "toast": {
+    "created": "{{name}} creada",
+    "updated": "{{name}} actualizada",
+    "deactivated": "{{name}} desactivada",
+    "reactivated": "{{name}} reactivada",
+    "imported_one": "{{count}} oferta importada",
+    "imported_other": "{{count}} ofertas importadas"
+  }
+}

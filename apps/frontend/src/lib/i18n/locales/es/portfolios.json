@@ -1,0 +1,113 @@
+{
+  "detail": {
+    "loading": "Cargando",
+    "error": {
+      "forbidden": "No tienes acceso a este portafolio.",
+      "notFound": "Portafolio no encontrado.",
+      "backToEvents": "Volver a eventos"
+    },
+    "backToEvent": "Volver al evento",
+    "overview": {
+      "title": "Resumen",
+      "event": "Evento",
+      "attendanceDate": "Fecha de asistencia"
+    },
+    "lifecycle": {
+      "title": "Ciclo de vida",
+      "exportCsv": "Exportar CSV"
+    },
+    "items": {
+      "title": "Elementos"
+    }
+  },
+  "itemsTable": {
+    "empty": "No hay elementos en este portafolio.",
+    "columns": {
+      "offering": "Oferta",
+      "type": "Tipo",
+      "basePrice": "Precio base",
+      "discount": "Descuento",
+      "discountAmount": "Monto del descuento",
+      "finalPrice": "Precio final"
+    }
+  },
+  "table": {
+    "empty": "Aún no se han generado portafolios.",
+    "card": {
+      "attends": "Asiste el {{date}}"
+    },
+    "columns": {
+      "client": "Cliente",
+      "email": "Correo electrónico",
+      "attendance": "Asistencia",
+      "status": "Estado",
+      "before": "Antes",
+      "discount": "Descuento",
+      "after": "Después",
+      "created": "Creado"
+    }
+  },
+  "totals": {
+    "title": "Totales",
+    "services": "Servicios",
+    "products": "Productos",
+    "totalBeforeDiscount": "Total antes del descuento",
+    "totalDiscount": "Descuento total",
+    "totalAfterDiscount": "Total después del descuento"
+  },
+  "categoryBreakdown": {
+    "subtotal": "Subtotal",
+    "discount": "Descuento",
+    "discountAmount": "Monto del descuento",
+    "afterDiscount": "Después del descuento"
+  },
+  "discountSummary": {
+    "title": "Total Estimado",
+    "services": "Servicios",
+    "products": "Productos",
+    "items": "Elementos",
+    "subtotal": "Subtotal",
+    "discount": "Descuento",
+    "discountAmount": "Monto del descuento",
+    "afterDiscount": "Después del descuento",
+    "totalBeforeDiscount": "Total antes del descuento",
+    "totalDiscount": "Descuento total",
+    "totalAfterDiscount": "Total después del descuento",
+    "rows": "Desglose por categoría",
+    "totals": "Totales",
+    "details": "Detalles de precios",
+    "percentages": "Descuentos aplicados",
+    "expand": "Expandir",
+    "collapse": "Contraer"
+  },
+  "offeringType": {
+    "product": "Producto",
+    "service": "Servicio"
+  },
+  "status": {
+    "draft": "Borrador",
+    "reviewed": "Revisado",
+    "sent": "Enviado",
+    "accepted": "Aceptado",
+    "rejected": "Rechazado",
+    "closed": "Cerrado"
+  },
+  "transitionAction": {
+    "draft": "Revertir a borrador",
+    "reviewed": "Marcar como revisado",
+    "sent": "Marcar como enviado",
+    "accepted": "Marcar como aceptado",
+    "rejected": "Marcar como rechazado",
+    "closed": "Cerrar"
+  },
+  "statusActions": {
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "dialogDescription": "¿Mover este portafolio a \"{{status}}\"? Esta acción actualiza el ciclo de seguimiento."
+  },
+  "toast": {
+    "statusUpdated": "Portafolio marcado como {{status}}",
+    "statusUpdateFailed": "No se pudo actualizar el estado del portafolio",
+    "exportFailed": "No se pudo exportar el portafolio"
+  }
+}

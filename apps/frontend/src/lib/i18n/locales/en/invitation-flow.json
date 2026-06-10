@@ -1,0 +1,130 @@
+{
+  "navbar": {
+    "eventStarted": "Event started",
+    "countdownLabel": "Time until the event starts",
+    "remaining": "Remaining:"
+  },
+  "validation": {
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "emailInvalid": "Enter a valid email",
+    "attendanceDateRequired": "Attendance date is required"
+  },
+  "steps": {
+    "personalInfo": "Your details",
+    "interests": "Interests",
+    "review": "Review"
+  },
+  "reservation": {
+    "reserving": "Reserving your seat…",
+    "held": "Seat held for",
+    "expired": "Your seat hold expired. Reserve again to keep your spot and confirm.",
+    "reReserve": "Reserve again",
+    "error": {
+      "fullTitle": "Event is full",
+      "fullMessage": "This event has reached full capacity, so no seats are available right now.",
+      "title": "Couldn't reserve a seat",
+      "message": "We couldn't hold a seat for you. Please refresh the page to try again."
+    }
+  },
+  "personalInfo": {
+    "firstName": {
+      "label": "First name"
+    },
+    "lastName": {
+      "label": "Last name"
+    },
+    "email": {
+      "label": "Email"
+    },
+    "attendanceDate": {
+      "label": "Attendance date",
+      "placeholder": "Select a date"
+    },
+    "actions": {
+      "continue": "Continue"
+    }
+  },
+  "interests": {
+    "intro": "Select the products and services you'd like to learn more about. This is optional.",
+    "empty": "No offerings are available for this event.",
+    "products": "Products",
+    "services": "Services",
+    "estimating": "Estimating your discount…",
+    "actions": {
+      "back": "Back",
+      "continue": "Continue"
+    }
+  },
+  "offerings": {
+    "title": "Products and services",
+    "badge": {
+      "product": "Product",
+      "service": "Service"
+    },
+    "search": {
+      "label": "Search offerings",
+      "placeholder": "Search by name…"
+    },
+    "noResults": "No offerings match your search."
+  },
+  "review": {
+    "name": "Name",
+    "email": "Email",
+    "attendanceDate": "Attendance date",
+    "interests": "Interests",
+    "noInterests": "No interests selected.",
+    "actions": {
+      "back": "Back",
+      "confirm": "Confirm attendance"
+    }
+  },
+  "success": {
+    "title": "You're confirmed",
+    "interests": "Your interests",
+    "alreadyConfirmed": "Your attendance has already been confirmed."
+  },
+  "toast": {
+    "confirmed": "Your attendance is confirmed.",
+    "full": "This event is now full."
+  },
+  "confirm": {
+    "expired": "Your seat hold expired. Reserve again above to confirm.",
+    "fallbackError": "We couldn't confirm your attendance. Please try again.",
+    "error": {
+      "ALREADY_CONFIRMED": "This invitation has already been confirmed.",
+      "CAPACITY_REACHED": "This event just reached full capacity, so we couldn't confirm your seat.",
+      "RESERVATION_EXPIRED": "Your seat hold expired. Please reserve again and confirm.",
+      "EMAIL_MISMATCH": "This email doesn't match the one on your invitation. Please use the invited email address.",
+      "INVALID_ATTENDANCE_DATE": "Please choose a valid attendance date for this event.",
+      "VALIDATION_ERROR": "Please review your details and try again.",
+      "OFFERING_NOT_SELECTABLE": "One of your selected items is no longer available. Please review your interests."
+    }
+  },
+  "ineligible": {
+    "INVALID_TOKEN": {
+      "title": "Invitation not found",
+      "message": "This invitation link is not valid. Please check the link from your email or contact the organizer."
+    },
+    "REGISTRATION_NOT_STARTED": {
+      "title": "Registration not open yet",
+      "message": "Registration for this event has not opened yet. Please come back once registration begins."
+    },
+    "REGISTRATION_CLOSED": {
+      "title": "Registration closed",
+      "message": "Registration for this event has closed. Please contact the organizer if you still wish to attend."
+    },
+    "EVENT_PAUSED": {
+      "title": "Registration paused",
+      "message": "Registration for this event is temporarily paused. Please try again later."
+    },
+    "CAPACITY_REACHED": {
+      "title": "Event is full",
+      "message": "This event has reached full capacity. No more seats are available at this time."
+    },
+    "ALREADY_CONFIRMED": {
+      "title": "Already confirmed",
+      "message": "Your attendance has already been confirmed."
+    }
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "list": {
+    "title": "Users",
+    "subtitle": "Manage sales reps and administrators.",
+    "loading": "Loading",
+    "error": "Failed to load users. Please try again.",
+    "summary_one": "{{count}} user · Page {{page}} of {{pageCount}}",
+    "summary_other": "{{count}} users · Page {{page}} of {{pageCount}}",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "table": {
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "created": "Created",
+    "actions": "Actions",
+    "empty": "No users found."
+  },
+  "roles": {
+    "admin": "Admin",
+    "sales": "Sales"
+  },
+  "statuses": {
+    "ACTIVE": "Active",
+    "PENDING": "Pending",
+    "INACTIVE": "Inactive"
+  },
+  "actions": {
+    "create": "New user",
+    "edit": "Edit",
+    "reactivate": "Reactivate",
+    "deactivate": "Deactivate",
+    "backToUsers": "Back to users",
+    "deactivateSelfTitle": "You cannot deactivate your own account"
+  },
+  "deactivateDialog": {
+    "title": "Deactivate user?",
+    "description": "{{name}} {{lastName}} will no longer be able to sign in. You can reactivate them later.",
+    "cancel": "Cancel",
+    "confirm": "Deactivate"
+  },
+  "create": {
+    "title": "New user"
+  },
+  "edit": {
+    "title": "Edit user",
+    "loading": "Loading",
+    "notFound": "User not found."
+  },
+  "form": {
+    "name": {
+      "label": "First name"
+    },
+    "lastName": {
+      "label": "Last name"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "you@vulkan.com"
+    },
+    "password": {
+      "label": "Password"
+    },
+    "resetPassword": {
+      "label": "Reset password",
+      "placeholder": "Leave blank to keep current password"
+    },
+    "role": {
+      "label": "Role",
+      "placeholder": "Select a role",
+      "lockedHint": "You cannot change your own role."
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Select a status",
+      "lockedHint": "You cannot deactivate your own account."
+    },
+    "submit": {
+      "create": "Create user",
+      "edit": "Save changes"
+    }
+  },
+  "validation": {
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "passwordMin": "Password must be at least 8 characters"
+  },
+  "toast": {
+    "created": "{{name}} {{lastName}} created",
+    "updated": "{{name}} {{lastName}} updated",
+    "reactivated": "{{name}} reactivated",
+    "deactivated": "{{name}} deactivated"
+  }
+}
