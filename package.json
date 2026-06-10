@@ -1,0 +1,8 @@
+{
+  "name": "vulkan",
+  "version": "1.0.0",
+  "description": "Promotional Events Platform",
+  "scripts": {},
+  "author": "Ktoxcon",
+  "packageManager": "pnpm@10.20.0"
+}
