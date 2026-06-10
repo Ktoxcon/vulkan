@@ -1,0 +1,44 @@
+{
+  "nameRequired": "El nombre es obligatorio",
+  "subjectRequired": "El asunto es obligatorio",
+  "htmlBodyRequired": "El cuerpo HTML es obligatorio",
+  "textBodyRequired": "El cuerpo de texto es obligatorio",
+  "form": {
+    "variables.label": "Variables admitidas",
+    "name.label": "Nombre",
+    "subject.label": "Asunto",
+    "subject.description": "Puedes usar las variables admitidas anteriores.",
+    "htmlBody.label": "Cuerpo HTML",
+    "textBody.label": "Cuerpo de texto",
+    "actions.save": "Guardar cambios",
+    "actions.create": "Crear plantilla"
+  },
+  "variables": {
+    "clientName": "Nombre del cliente",
+    "companyName": "Nombre de la empresa",
+    "eventName": "Nombre del evento",
+    "eventDate": "Fecha del evento",
+    "invitationUrl": "URL de invitación"
+  },
+  "preview": {
+    "title": "Vista previa",
+    "loading": "Cargando",
+    "error": "No se pudo cargar la vista previa. Inténtalo de nuevo.",
+    "subject.title": "Asunto",
+    "htmlBody.title": "Cuerpo HTML",
+    "textBody.title": "Cuerpo de texto"
+  },
+  "tab": {
+    "loading": "Cargando",
+    "error": "No se pudo cargar la plantilla de correo. Inténtalo de nuevo.",
+    "lockedHint": "La plantilla de correo se bloquea una vez que el evento sale de Borrador.",
+    "empty": "Crea la plantilla para ver una vista previa renderizada."
+  },
+  "toast": {
+    "saved": "Plantilla de correo guardada"
+  },
+  "error": {
+    "alreadyExists": "Ya existe una plantilla para este evento. Vuelve a cargar para editarla.",
+    "locked": "La plantilla se bloquea una vez que el evento sale de Borrador."
+  }
+}

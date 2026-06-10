@@ -1,0 +1,44 @@
+{
+  "nameRequired": "Name is required",
+  "subjectRequired": "Subject is required",
+  "htmlBodyRequired": "HTML body is required",
+  "textBodyRequired": "Text body is required",
+  "form": {
+    "variables.label": "Supported variables",
+    "name.label": "Name",
+    "subject.label": "Subject",
+    "subject.description": "You can use the supported variables above.",
+    "htmlBody.label": "HTML body",
+    "textBody.label": "Text body",
+    "actions.save": "Save changes",
+    "actions.create": "Create template"
+  },
+  "variables": {
+    "clientName": "Client name",
+    "companyName": "Company name",
+    "eventName": "Event name",
+    "eventDate": "Event date",
+    "invitationUrl": "Invitation URL"
+  },
+  "preview": {
+    "title": "Preview",
+    "loading": "Loading",
+    "error": "Failed to load the preview. Please try again.",
+    "subject.title": "Subject",
+    "htmlBody.title": "HTML body",
+    "textBody.title": "Text body"
+  },
+  "tab": {
+    "loading": "Loading",
+    "error": "Failed to load the email template. Please try again.",
+    "lockedHint": "The email template is locked once the event leaves Draft.",
+    "empty": "Create the template to see a rendered preview."
+  },
+  "toast": {
+    "saved": "Email template saved"
+  },
+  "error": {
+    "alreadyExists": "A template already exists for this event. Reload to edit it.",
+    "locked": "The template is locked once the event leaves Draft."
+  }
+}

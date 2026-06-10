@@ -1,0 +1,113 @@
+{
+  "detail": {
+    "loading": "Loading",
+    "error": {
+      "forbidden": "You do not have access to this portfolio.",
+      "notFound": "Portfolio not found.",
+      "backToEvents": "Back to events"
+    },
+    "backToEvent": "Back to event",
+    "overview": {
+      "title": "Overview",
+      "event": "Event",
+      "attendanceDate": "Attendance date"
+    },
+    "lifecycle": {
+      "title": "Lifecycle",
+      "exportCsv": "Export CSV"
+    },
+    "items": {
+      "title": "Items"
+    }
+  },
+  "itemsTable": {
+    "empty": "No items in this portfolio.",
+    "columns": {
+      "offering": "Offering",
+      "type": "Type",
+      "basePrice": "Base price",
+      "discount": "Discount",
+      "discountAmount": "Discount amount",
+      "finalPrice": "Final price"
+    }
+  },
+  "table": {
+    "empty": "No portfolios generated yet.",
+    "card": {
+      "attends": "Attends {{date}}"
+    },
+    "columns": {
+      "client": "Client",
+      "email": "Email",
+      "attendance": "Attendance",
+      "status": "Status",
+      "before": "Before",
+      "discount": "Discount",
+      "after": "After",
+      "created": "Created"
+    }
+  },
+  "totals": {
+    "title": "Totals",
+    "services": "Services",
+    "products": "Products",
+    "totalBeforeDiscount": "Total before discount",
+    "totalDiscount": "Total discount",
+    "totalAfterDiscount": "Total after discount"
+  },
+  "categoryBreakdown": {
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "discountAmount": "Discount amount",
+    "afterDiscount": "After discount"
+  },
+  "discountSummary": {
+    "title": "Estimated Total",
+    "services": "Services",
+    "products": "Products",
+    "items": "Items",
+    "subtotal": "Subtotal",
+    "discount": "Discount",
+    "discountAmount": "Discount amount",
+    "afterDiscount": "After discount",
+    "totalBeforeDiscount": "Total before discount",
+    "totalDiscount": "Total discount",
+    "totalAfterDiscount": "Total after discount",
+    "rows": "Category breakdown",
+    "totals": "Totals",
+    "details": "Price details",
+    "percentages": "Applied Discounts",
+    "expand": "Expand",
+    "collapse": "Collapse"
+  },
+  "offeringType": {
+    "product": "Product",
+    "service": "Service"
+  },
+  "status": {
+    "draft": "Draft",
+    "reviewed": "Reviewed",
+    "sent": "Sent",
+    "accepted": "Accepted",
+    "rejected": "Rejected",
+    "closed": "Closed"
+  },
+  "transitionAction": {
+    "draft": "Revert to Draft",
+    "reviewed": "Mark Reviewed",
+    "sent": "Mark Sent",
+    "accepted": "Mark Accepted",
+    "rejected": "Mark Rejected",
+    "closed": "Close"
+  },
+  "statusActions": {
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "dialogDescription": "Move this portfolio to \"{{status}}\"? This action updates the follow-up lifecycle."
+  },
+  "toast": {
+    "statusUpdated": "Portfolio marked {{status}}",
+    "statusUpdateFailed": "Failed to update portfolio status",
+    "exportFailed": "Failed to export portfolio"
+  }
+}

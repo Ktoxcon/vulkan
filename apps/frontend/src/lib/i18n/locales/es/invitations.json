@@ -1,0 +1,60 @@
+{
+  "table": {
+    "title": "Invitaciones",
+    "filter.placeholder": "Filtrar por estado",
+    "filter.all": "Todos los estados",
+    "empty": "No hay invitaciones para mostrar.",
+    "header.email": "Correo electrónico",
+    "header.status": "Estado",
+    "header.sent": "Enviada",
+    "header.opened": "Abierta",
+    "header.confirmed": "Confirmada"
+  },
+  "status": {
+    "pending": "Pendiente",
+    "queued": "En cola",
+    "processing": "Procesando",
+    "sent": "Enviada",
+    "opened": "Abierta",
+    "failed": "Fallida",
+    "started": "Iniciada",
+    "confirmed": "Confirmada",
+    "expired": "Caducada"
+  },
+  "monitoring": {
+    "total": "Total",
+    "pending": "Pendientes",
+    "queued": "En cola",
+    "processing": "Procesando",
+    "sent": "Enviadas",
+    "opened": "Abiertas",
+    "failed": "Fallidas",
+    "confirmed": "Confirmadas"
+  },
+  "generate": {
+    "action": "Generar invitaciones",
+    "toast.success": "Se generaron {{createdCount}}/{{totalRosterClients}} invitaciones",
+    "toast.rosterMissing": "Sube una lista de clientes antes de generar invitaciones."
+  },
+  "send": {
+    "action": "Enviar invitaciones",
+    "title": "Enviar invitaciones",
+    "description.running": "El envío se está ejecutando en segundo plano. Puedes cerrar este diálogo.",
+    "description.queue": "Esto pondrá en cola {{count}} invitaciones pendientes para su entrega.",
+    "progress.sent": "Enviadas",
+    "progress.inProgress": "En curso",
+    "progress.failed": "Fallidas",
+    "done": "Listo",
+    "close": "Cerrar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar y enviar",
+    "toast.queued": "Se pusieron en cola {{count}} invitaciones",
+    "toast.templateMissing": "Configura la plantilla de correo electrónico antes de enviar.",
+    "toast.noPending": "No hay invitaciones pendientes para enviar."
+  },
+  "tab": {
+    "export": "Exportar informe",
+    "loading": "Cargando",
+    "error": "No se pudieron cargar las invitaciones. Inténtalo de nuevo."
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "admin": {
+    "title": "Consola de administración",
+    "greeting": "Bienvenido de nuevo, {{name}}. Gestiona los eventos, las listas de clientes y el equipo de ventas desde aquí.",
+    "fallbackName": "administrador"
+  },
+  "sales": {
+    "title": "Espacio de ventas",
+    "greeting": "Bienvenido de nuevo, {{name}}. Haz seguimiento de tus eventos, invitaciones y confirmaciones de clientes desde aquí.",
+    "fallbackName": "hola",
+    "actions": {
+      "goToEvents": "Ir a eventos"
+    }
+  }
+}

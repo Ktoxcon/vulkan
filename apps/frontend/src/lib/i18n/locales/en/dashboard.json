@@ -1,0 +1,15 @@
+{
+  "admin": {
+    "title": "Admin console",
+    "greeting": "Welcome back, {{name}}. Manage events, rosters, and the sales team here.",
+    "fallbackName": "admin"
+  },
+  "sales": {
+    "title": "Sales workspace",
+    "greeting": "Welcome back, {{name}}. Track your events, invitations, and client confirmations here.",
+    "fallbackName": "there",
+    "actions": {
+      "goToEvents": "Go to events"
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "list": {
+    "title": "Catalog",
+    "subtitle": "Manage products and services offered across events.",
+    "loading": "Loading",
+    "error": "Failed to load offerings. Please try again.",
+    "count_one": "{{count}} offering · Page {{page}} of {{pageCount}}",
+    "count_other": "{{count}} offerings · Page {{page}} of {{pageCount}}",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "actions": {
+    "import": "Import CSV",
+    "new": "New offering",
+    "edit": "Edit",
+    "deactivate": "Deactivate",
+    "reactivate": "Reactivate",
+    "backToCatalog": "Back to catalog"
+  },
+  "table": {
+    "name": "Name",
+    "type": "Type",
+    "basePrice": "Base price",
+    "status": "Status",
+    "created": "Created",
+    "actions": "Actions",
+    "empty": "No offerings found."
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "filters": {
+    "type": {
+      "label": "Type",
+      "placeholder": "All types",
+      "all": "All types"
+    },
+    "status": {
+      "label": "Status",
+      "placeholder": "Status"
+    },
+    "search": {
+      "label": "Search",
+      "placeholder": "Search name or description"
+    }
+  },
+  "typeOptions": {
+    "product": "Product",
+    "service": "Service"
+  },
+  "statusOptions": {
+    "active": "Active",
+    "inactive": "Inactive",
+    "all": "All"
+  },
+  "rowActions": {
+    "deactivateTitle": "Deactivate offering?",
+    "deactivateDescription": "{{name}} will no longer be available to assign to events. You can reactivate it later.",
+    "cancel": "Cancel"
+  },
+  "create": {
+    "title": "New offering"
+  },
+  "edit": {
+    "title": "Edit offering",
+    "notFound": "Offering not found."
+  },
+  "form": {
+    "type": {
+      "label": "Type",
+      "placeholder": "Select a type",
+      "readOnlyDescription": "Type cannot be changed."
+    },
+    "name": {
+      "label": "Name"
+    },
+    "description": {
+      "label": "Description"
+    },
+    "basePrice": {
+      "label": "Base price"
+    },
+    "isActive": {
+      "label": "Active",
+      "description": "Active offerings can be assigned to events."
+    },
+    "submit": {
+      "create": "Create offering",
+      "save": "Save changes"
+    }
+  },
+  "validation": {
+    "typeRequired": "Type is required",
+    "nameRequired": "Name is required",
+    "basePriceNumber": "Base price must be a number",
+    "basePricePositive": "Base price must be greater than 0"
+  },
+  "import": {
+    "title": "Import offerings",
+    "subtitle": "Upload a CSV with columns: name, type, description, basePrice.",
+    "upload": {
+      "title": "Upload catalog CSV",
+      "subtitle": "Choose a CSV file with the columns name, type, description, basePrice.",
+      "selected": "Selected: {{name}}",
+      "submit": "Upload and preview",
+      "invalidFile": "Please choose a CSV file."
+    },
+    "preview": {
+      "title": "Import preview",
+      "cancel": "Cancel",
+      "confirm": "Confirm import",
+      "counters": {
+        "processed": "Processed",
+        "imported": "Imported",
+        "duplicate": "Duplicate",
+        "invalid": "Invalid"
+      },
+      "invalidRows": {
+        "title": "Invalid rows",
+        "row": "Row",
+        "raw": "Raw",
+        "errors": "Errors"
+      },
+      "duplicateRows": {
+        "title": "Duplicate rows",
+        "row": "Row",
+        "name": "Name",
+        "type": "Type"
+      }
+    },
+    "summary": {
+      "title": "Import complete",
+      "imported": "Imported",
+      "duplicatesSkipped": "Duplicates skipped",
+      "invalidRows": "Invalid rows",
+      "processed": "Processed",
+      "backToCatalog": "Back to catalog",
+      "importAnother": "Import another file"
+    }
+  },
+  "toast": {
+    "created": "{{name}} created",
+    "updated": "{{name}} updated",
+    "deactivated": "{{name}} deactivated",
+    "reactivated": "{{name}} reactivated",
+    "imported_one": "{{count}} offering imported",
+    "imported_other": "{{count}} offerings imported"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "navbar": {
+    "eventStarted": "El evento ha comenzado",
+    "countdownLabel": "Tiempo hasta que comienza el evento",
+    "remaining": "Falta:"
+  },
+  "validation": {
+    "firstNameRequired": "El nombre es obligatorio",
+    "lastNameRequired": "Los apellidos son obligatorios",
+    "emailInvalid": "Introduce un correo electrónico válido",
+    "attendanceDateRequired": "La fecha de asistencia es obligatoria"
+  },
+  "steps": {
+    "personalInfo": "Tus datos",
+    "interests": "Intereses",
+    "review": "Revisión"
+  },
+  "reservation": {
+    "reserving": "Reservando tu plaza…",
+    "held": "Plaza reservada durante",
+    "expired": "Tu reserva de plaza ha caducado. Reserva de nuevo para mantener tu lugar y confirmar.",
+    "reReserve": "Reservar de nuevo",
+    "error": {
+      "fullTitle": "El evento está completo",
+      "fullMessage": "Este evento ha alcanzado su capacidad máxima, por lo que no hay plazas disponibles en este momento.",
+      "title": "No se pudo reservar una plaza",
+      "message": "No pudimos reservarte una plaza. Actualiza la página para volver a intentarlo."
+    }
+  },
+  "personalInfo": {
+    "firstName": {
+      "label": "Nombre"
+    },
+    "lastName": {
+      "label": "Apellidos"
+    },
+    "email": {
+      "label": "Correo electrónico"
+    },
+    "attendanceDate": {
+      "label": "Fecha de asistencia",
+      "placeholder": "Selecciona una fecha"
+    },
+    "actions": {
+      "continue": "Continuar"
+    }
+  },
+  "interests": {
+    "intro": "Selecciona los productos y servicios sobre los que te gustaría saber más.",
+    "empty": "No hay ofertas disponibles para este evento.",
+    "products": "Productos",
+    "services": "Servicios",
+    "estimating": "Estimando tu descuento…",
+    "actions": {
+      "back": "Atrás",
+      "continue": "Continuar"
+    }
+  },
+  "offerings": {
+    "title": "Productos y servicios",
+    "badge": {
+      "product": "Producto",
+      "service": "Servicio"
+    },
+    "search": {
+      "label": "Buscar ofertas",
+      "placeholder": "Busca por nombre…"
+    },
+    "noResults": "Ninguna oferta coincide con tu búsqueda."
+  },
+  "review": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "attendanceDate": "Fecha de asistencia",
+    "interests": "Intereses",
+    "noInterests": "No se han seleccionado intereses.",
+    "actions": {
+      "back": "Atrás",
+      "confirm": "Confirmar asistencia"
+    }
+  },
+  "success": {
+    "title": "Confirmado",
+    "interests": "Tus intereses",
+    "alreadyConfirmed": "Tu asistencia ya ha sido confirmada."
+  },
+  "toast": {
+    "confirmed": "Tu asistencia está confirmada.",
+    "full": "Este evento ya está completo."
+  },
+  "confirm": {
+    "expired": "Tu reserva de plaza ha caducado. Reserva de nuevo arriba para confirmar.",
+    "fallbackError": "No pudimos confirmar tu asistencia. Vuelve a intentarlo.",
+    "error": {
+      "ALREADY_CONFIRMED": "Esta invitación ya ha sido confirmada.",
+      "CAPACITY_REACHED": "Este evento acaba de alcanzar su capacidad máxima, por lo que no pudimos confirmar tu plaza.",
+      "RESERVATION_EXPIRED": "Tu reserva de plaza ha caducado. Reserva de nuevo y confirma.",
+      "EMAIL_MISMATCH": "Este correo electrónico no coincide con el de tu invitación. Utiliza la dirección de correo invitada.",
+      "INVALID_ATTENDANCE_DATE": "Elige una fecha de asistencia válida para este evento.",
+      "VALIDATION_ERROR": "Revisa tus datos e inténtalo de nuevo.",
+      "OFFERING_NOT_SELECTABLE": "Uno de los elementos que seleccionaste ya no está disponible. Revisa tus intereses."
+    }
+  },
+  "ineligible": {
+    "INVALID_TOKEN": {
+      "title": "Invitación no encontrada",
+      "message": "Este enlace de invitación no es válido. Comprueba el enlace de tu correo electrónico o ponte en contacto con el organizador."
+    },
+    "REGISTRATION_NOT_STARTED": {
+      "title": "El registro aún no está abierto",
+      "message": "El registro para este evento todavía no ha comenzado. Vuelve cuando el registro esté abierto."
+    },
+    "REGISTRATION_CLOSED": {
+      "title": "Registro cerrado",
+      "message": "El registro para este evento ha cerrado. Ponte en contacto con el organizador si aún deseas asistir."
+    },
+    "EVENT_PAUSED": {
+      "title": "Registro en pausa",
+      "message": "El registro para este evento está pausado temporalmente. Inténtalo de nuevo más tarde."
+    },
+    "CAPACITY_REACHED": {
+      "title": "El evento está completo",
+      "message": "Este evento ha alcanzado su capacidad máxima. No hay más plazas disponibles en este momento."
+    },
+    "ALREADY_CONFIRMED": {
+      "title": "Ya confirmado",
+      "message": "Tu asistencia ya ha sido confirmada."
+    }
+  }
+}

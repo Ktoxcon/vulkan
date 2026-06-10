@@ -1,0 +1,10 @@
+process.env.NODE_ENV = "test";
+process.env.SESSION_SECRET ??= "test-session-secret";
+process.env.COOKIES_SECRET ??= "test-cookies-secret";
+process.env.DB_NAME ??= "vulkan_test";
+process.env.DB_USER ??= "test";
+process.env.DB_PASSWORD ??= "test";
+process.env.DB_HOST ??= "127.0.0.1";
+process.env.DB_PORT ??= "5432";
+process.env.ROOT_EMAIL ??= "root@vulkan.com";
+process.env.ROOT_PASSWORD ??= "toor1234!@";
