@@ -2,7 +2,11 @@
   "name": "vulkan",
   "version": "1.0.0",
   "description": "Promotional Events Platform",
-  "scripts": {},
+  "scripts": {
+    "backend:dev": "pnpm --filter='@vulkan/backend' dev",
+    "worker:dev": "pnpm --filter='@vulkan/backend' dev:worker",
+    "frontend:dev": "pnpm --filter='@vulkan/frontend' dev"
+  },
   "author": "Ktoxcon",
   "packageManager": "pnpm@10.20.0"
 }
