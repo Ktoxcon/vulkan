@@ -78,6 +78,14 @@ pnpm dev
 
 Puedes ejecutar estos comandos desde la carpeta raíz del proyecto o desde la ubicación específica de cada aplicación. Antes de hacerlo, asegúrate de haber configurado correctamente las variables de entorno necesarias en el archivo .env dentro de la carpeta de cada app.
 
+## Arquitectura
+
+Todos los detalles de como funciona Vulkan pueden ser encontrados en las siguientes paginas:
+
+- [Contexto](docs/ARCHITECTURE/c4.md)
+- [Base de Datos](docs/ARCHITECTURE/database.md)
+- [Secuencias](docs/ARCHITECTURE/sequences.md)
+
 ## FAQ
 
 ### ¿Por qué el proyecto se llama Vulkan?
